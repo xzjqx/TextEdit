@@ -1,0 +1,20 @@
+<RCC>
+  <qresource prefix="TextEditor">
+    <file>Resources/icons/aboutQt.png</file>
+    <file>Resources/icons/bold.png</file>
+    <file>Resources/icons/color.png</file>
+    <file>Resources/icons/copy.png</file>
+    <file>Resources/icons/cut.png</file>
+    <file>Resources/icons/exit.png</file>
+    <file>Resources/icons/italic.png</file>
+    <file>Resources/icons/new.png</file>
+    <file>Resources/icons/open.png</file>
+    <file>Resources/icons/paste.png</file>
+    <file>Resources/icons/print.png</file>
+    <file>Resources/icons/printPreview.png</file>
+    <file>Resources/icons/redo.png</file>
+    <file>Resources/icons/save.png</file>
+    <file>Resources/icons/underline.png</file>
+    <file>Resources/icons/undo.png</file>
+  </qresource>
+</RCC>
