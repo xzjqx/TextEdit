@@ -71,7 +71,7 @@ public:
         AboutBox->setWindowTitle(QApplication::translate("AboutBox", "AboutBox", Q_NULLPTR));
         label_4->setText(QApplication::translate("AboutBox", "This is a simple text editor.", Q_NULLPTR));
         label->setText(QApplication::translate("AboutBox", "<html><head/><body><p align=\"center\">Author: Xiao Jian</p></body></html>", Q_NULLPTR));
-        label_2->setText(QApplication::translate("AboutBox", "<html><head/><body><p align=\"center\">Powered by: VS2015</p></body></html>", Q_NULLPTR));
+        label_2->setText(QApplication::translate("AboutBox", "<html><head/><body><p align=\"center\">Builded by: VS2015</p></body></html>", Q_NULLPTR));
     } // retranslateUi
 
 };

@@ -1,5 +1,7 @@
-﻿  Moc'ing TextEditor.h...
+﻿  Uic'ing AboutBox.ui...
+  moc_AboutBox.cpp
   moc_TextEditor.cpp
+  AboutBox.cpp
   TextEditor.cpp
   main.cpp
   TextEditor.vcxproj -> C:\Users\xzjqx\Desktop\Study\C++\workspace\TextEditor\x64\Debug\TextEditor.exe

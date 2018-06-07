@@ -89,11 +89,6 @@ void TextEditor::Open() {
 			ui.textEdit->setPlainText(str);
 		}
 
-		/*QTextStream textStream(&file);
-		ui.textEdit->clear();
-		while (!textStream.atEnd()) {
-			ui.textEdit->append(textStream.readLine());
-		}*/
 		file.close();
 		isSaved = true;
 		changeTitle();
@@ -114,18 +109,6 @@ void TextEditor::Save() {
 		writer.write(ui.textEdit->document());
 		QMessageBox::about(this, "Note", "You have saved the file to\n" + fileName);
 		isSaved = true;
-		/*
-		QFile file(fileName);
-		if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
-			QTextDocumentWriter writer(fileName);
-			writer.write(ui.textEdit->document());
-			QTextStream textStream(&file);
-			QString str = ui.textEdit->toPlainText();
-			textStream << str;
-			file.close();
-			QMessageBox::about(this, "Note", "You have saved the file to\n" + fileName);
-			isSaved = true;
-		}*/
 	}
 }
 
@@ -139,16 +122,6 @@ void TextEditor::SaveAs() {
 	QMessageBox::about(this, "Note", "You have saved the file to\n" + fileName);
 	isSaved = true;
 	changeTitle();
-	/*
-	QFile file(fileName);
-	if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
-		QTextStream textStream(&file);
-		QString str = ui.textEdit->toPlainText();
-		textStream << str;
-		file.close();
-		isSaved = true;
-		changeTitle();
-	}*/
 }
 
 void TextEditor::Print() {
@@ -232,7 +205,5 @@ void TextEditor::Color() {
 
 void TextEditor::About() {
 	AboutBox *ab = new AboutBox;
-	qDebug() << "About";
 	ab->show();
-	//QMessageBox::about(this, tr("About"), tr("This is a simple text editor. Powered by Xiao Jian"));
 }
