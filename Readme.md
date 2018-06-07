@@ -12,7 +12,7 @@ TextEdit首先通过Qt Designer完成记事本界面的设计，再利用信号�
 
 TextEdit类图如下图所示：
 
-![](https://github.com/xzjqx/TextEdit/tree/master/images/TextEdit_UML.jpg)
+![TextEdit_UML](https://github.com/xzjqx/TextEdit/blob/master/images/TextEdit_UML.jpg)
 
 #### UI设计
 
