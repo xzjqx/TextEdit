@@ -90,8 +90,3 @@ writer.write(ui.textEdit->document());
 #### About界面设计
 
 TextEdit希望弹出一个非QMessageBox类型的About界面，故在项目内新建了一个Qt GUI Class，简单UI设计。
-
-### 效果展示
-
-
-

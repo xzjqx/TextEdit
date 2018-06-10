@@ -165,6 +165,10 @@ public:
         gridLayout->setObjectName(QStringLiteral("gridLayout"));
         textEdit = new QTextEdit(centralWidget);
         textEdit->setObjectName(QStringLiteral("textEdit"));
+        QFont font;
+        font.setFamily(QStringLiteral("Consolas"));
+        font.setPointSize(14);
+        textEdit->setFont(font);
 
         gridLayout->addWidget(textEdit, 0, 0, 1, 1);
 
